@@ -184,7 +184,8 @@ body {
 }
 
 .heading {
-    padding: 0.5rem 0px;
+    padding   : 10px;
+    box-sizing: border-box;
 }
 
 .hero .heading {
