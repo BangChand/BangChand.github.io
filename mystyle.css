@@ -169,7 +169,7 @@ body {
 
 .container {
     background-color: rgb(59, 59, 59);
-    width           : 758px;
+    width           : 1110px;
     padding-bottom  : 50px;
 }
 
@@ -242,7 +242,7 @@ body {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 450px) {
     .navbar {
         background-color: white;
     }
@@ -259,6 +259,11 @@ body {
     .content {
         flex-wrap: wrap;
         row-gap  : 20px;
+    }
+
+    .content .content-card #fist-image:first-child {
+        background-color: red;
+        display         : none;
     }
 
     .content-card {
