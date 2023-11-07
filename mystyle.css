@@ -156,6 +156,11 @@ body {
     color: gold;
 }
 
+li a {
+    color          : gold;
+    text-decoration: none;
+}
+
 .navbar menu {
     margin: 10px;
     height: 26px;
