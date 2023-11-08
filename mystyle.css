@@ -139,7 +139,8 @@ table {
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
         "Lucida Sans Regular";
-    background-image: url(img/zee_desktop_darker.jpg);
+    background-color   : #222222;
+    /* background-image: url(img/zee_desktop_darker.jpg); */
 }
 
 .navbar {
