@@ -63,7 +63,14 @@
             const jumlahKali = 5;
 
             // Array nama gambar
-            const gambarArray = [
+            
+        
+            // Mengambil elemen container
+            const flexContainer = document.getElementById("flexContainer");
+
+            for (let j = 0; j < jumlahKali; j++ ) {
+
+              const gambarArray = [
                 ["2x3-1", "pozeee"],
                 ["2x3-2", "naik wahana"],
                 ["2x3-3", "cool"],
@@ -90,18 +97,13 @@
                 ["9x16-4", ""],
                 ["9x16-5", ""],
             ];
-        
-            // Mengambil elemen container
-            const flexContainer = document.getElementById("flexContainer");
-
-            for (let j = 0; j < jumlahKali; j++ ) {
                 
                 const flexColumns = document.createElement("div")
                 flexColumns.className = "flexColumns";
                 flexColumns.id = "flexColumns";
                 flexContainer.appendChild(flexColumns)  
 
-                for (let i = 0; i < jumlahKali; i++) { 
+                for (let i = 0; i < gambarArray.length * gambarArray.length; i++) { 
                         let indexGambar = Math.floor(Math.random() * gambarArray.length);
 
                         const item = document.createElement("div");

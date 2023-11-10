@@ -175,14 +175,16 @@ li a {
 
 .container {
     background-color: rgb(59, 59, 59);
-    width           : 1110px;
     padding-bottom  : 50px;
 }
 
 .hero {
-    width              : 100%;
-    background-position: 0 -80px;
-    height             : max-content;
+    width: 100%;
+}
+
+.hero img {
+    object-fit: cover;
+    height    : 450px;
 }
 
 
